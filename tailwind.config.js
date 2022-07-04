@@ -16,6 +16,11 @@ module.exports = {
         lightGrayishBlue: "hsl(220, 16%, 96%)",
         veryLightGray: "hsl(0, 0%, 98%)",
       },
+      maxWidth: {
+        "1/2": "50%",
+        "2/3": "67%",
+        "3/4": "75%",
+      },
     },
   },
   plugins: [],

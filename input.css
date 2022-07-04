@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#hero {
+  background-image: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@layer components {
+  .btn {
+    @apply rounded-full bg-gradient-to-r from-limeGreen to-brightCyan duration-200 hover:opacity-80 text-white px-6 py-3 cursor-pointer block;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-darkBlue text-3xl tracking-wider;
+  }
+
+  p {
+    @apply text-grayishBlue mb-10 font-sans;
+  }
+
+  h2 {
+    @apply text-darkBlue text-xl tracking-wide mb-8;
+  }
+
+  h3 {
+    @apply text-darkBlue text-lg tracking-normal mb-3;
+  }
+}
+
+.favcon:hover {
+  filter: invert(60%) sepia(80%) saturate(804%) hue-rotate(80deg)
+    brightness(121%) contrast(90%);
+}
