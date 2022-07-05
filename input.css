@@ -6,6 +6,58 @@
   background-image: url("../images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: 20rem 45%;
+}
+
+@media (max-width: 770px) {
+  #hero {
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    background-position: 10% -3.125rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero {
+    background-position: 10% -4.375rem;
+  }
+}
+
+@media (min-width: 890px) {
+  #hero {
+    background-position: 27rem 45%;
+  }
+}
+
+@media (min-width: 1050px) {
+  #hero {
+    background-position: 32rem 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    background-position: 37rem 45%;
+  }
+}
+
+@media (min-width: 1350px) {
+  #hero {
+    background-position: 42rem 45%;
+  }
+}
+
+@media (min-width: 1550px) {
+  #hero {
+    background-position: 47rem 45%;
+  }
 }
 
 @layer components {
@@ -28,7 +80,7 @@
   }
 
   h3 {
-    @apply text-darkBlue text-lg tracking-normal mb-3;
+    @apply text-darkBlue md:text-lg tracking-normal mb-3 lg:text-sm sm:text-xs;
   }
 }
 

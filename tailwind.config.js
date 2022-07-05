@@ -2,7 +2,12 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
-      md: "800px",
+      xs: "435px",
+      sm: "515px",
+      md: "770px",
+      lg: "995px",
+      xl: "1150px",
+      twoXl: "1350px",
     },
     extend: {
       fontFamily: {
@@ -20,6 +25,8 @@ module.exports = {
         "1/2": "50%",
         "2/3": "67%",
         "3/4": "75%",
+        "3/5": "60%",
+        "4/5": "80%",
       },
     },
   },
