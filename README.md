@@ -1,5 +1,4 @@
 <img src="images/logo-footer.svg">
-<br>
 <p>A landing page for a digital bank </p>
 <h1>Installation </h1>
 <h3> Download the ZIP or: </h3>
