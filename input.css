@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: 620px) {
+  #hero {
+    background-position: 10% -3.125rem;
+  }
+}
+
 @media (max-width: 480px) {
   #hero {
     background-position: 10% -3.125rem;
@@ -27,6 +33,12 @@
 @media (max-width: 400px) {
   #hero {
     background-position: 10% -4.375rem;
+  }
+}
+
+@media (max-width: 370px) {
+  #hero {
+    background-position: 10% -5.9rem;
   }
 }
 
@@ -60,6 +72,18 @@
   }
 }
 
+@media (min-width: 1900px) {
+  #hero {
+    background-position: 57rem 45%;
+  }
+}
+
+@media (min-width: 2100px) {
+  #hero {
+    background-position: 67rem 45%;
+  }
+}
+
 @layer components {
   .btn {
     @apply rounded-full bg-gradient-to-r from-limeGreen to-brightCyan duration-200 hover:opacity-80 text-white px-6 py-3 cursor-pointer block;
@@ -80,7 +104,7 @@
   }
 
   h3 {
-    @apply text-darkBlue md:text-lg tracking-normal mb-3 lg:text-sm sm:text-xs;
+    @apply text-darkBlue md:text-lg tracking-normal mb-3 lg:text-sm;
   }
 }
 

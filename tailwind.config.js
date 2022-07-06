@@ -2,6 +2,7 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
+      xxs: "364px",
       xs: "435px",
       sm: "515px",
       md: "770px",
@@ -27,6 +28,9 @@ module.exports = {
         "3/4": "75%",
         "3/5": "60%",
         "4/5": "80%",
+      },
+      maxHeight: {
+        "1/2": "50%",
       },
     },
   },
